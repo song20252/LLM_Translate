@@ -1,0 +1,14 @@
+# 待翻译目录，支持.srt格式
+input_dir: './input'
+# 输出目录
+output_dir: './output'
+# 字幕文件分块行数
+chunk_size: 10
+# 翻译时开启多少线程
+max_workers: 60
+# api key
+api_key: "your_api_key"
+# base url
+base_url: "your_base_url"
+# 提示词
+prompt: "你是个专业翻译，请直接给出中文译文，不需要推理过程。你必须严格保持原格式，每条以数字编号开头"
